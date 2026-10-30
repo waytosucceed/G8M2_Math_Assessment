@@ -1,0 +1,525 @@
+{
+  "heading": "Assessment",
+  "topics": [
+    {
+      "heading": "BODMAS & Word Problems",
+      "questions": [
+        {
+          "questionNo": 1,
+          "question": "Fill the given blanks and hence simplify the following expression:<br>{[−12 + 8] × 4} + {6 × [−3 + 7]}<br>= {[ ______ ] × 4} + {6 × [ ______ ]}<br>= { ______ } + { ______ }<br>= ______",
+          "input": ["", "", "", "", ""],
+          "answer": ["-4", "4", "-16", "24", "8"]
+        },
+        {
+          "questionNo": 2,
+          "question": [
+            "Simplify the following expression:<br>",
+            "{[−10 + ",
+            {
+              "fraction": {
+                "numerator": "5",
+                "denominator": "2"
+              }
+            },
+            "] × 2} + {4 × [",
+            {
+              "fraction": {
+                "numerator": "1",
+                "denominator": "2"
+              }
+            },
+            " + ",
+            {
+              "fraction": {
+                "numerator": "7",
+                "denominator": "2"
+              }
+            },
+            "]}<br>= {[",
+            {
+              "fraction": {
+                "numerator": "______",
+                "denominator": "______"
+              }
+            },
+            "] × 2} + {4 × [______]}<br>= {______} + {______}<br> = ______"
+          ],
+          "input": ["", "", "", "", "", ""],
+          "answer": ["-15", "2", "4", "-15", "16", "1"]
+        },
+        {
+          "questionNo": 3,
+          "question": "Sophie said the coldest day in her town was six times colder than yesterday's temperature of −3°C.<br>What was that temperature?",
+          "options": [
+            { "text": "−18°C" },
+            { "text": "18°C" },
+            { "text": "−9°C" },
+            { "text": "6°C" }
+          ],
+          "answer": 0
+        },
+        {
+          "questionNo": 4,
+          "question": [
+            "The temperature in the fridge dropped ",
+            { "fraction": { "numerator": "12", "denominator": "3" } },
+            "°C over 6 hours.<br>What was the change in temperature each hour?"
+          ],
+          "options": [
+            {
+              "textParts": [
+                { "fraction": { "numerator": "2", "denominator": "3" } },
+                "°C"
+              ]
+            },
+            {
+              "textParts": [
+                { "fraction": { "numerator": "-2", "denominator": "3" } },
+                "°C"
+              ]
+            },
+            {
+              "textParts": [
+                { "fraction": { "numerator": "-1", "denominator": "3" } },
+                "°C"
+              ]
+            },
+            {
+              "textParts": [
+                { "fraction": { "numerator": "1", "denominator": "2" } },
+                "°C"
+              ]
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "questionNo": 5,
+          "question": [
+            "Noah earns $2400 per month.<br>He spends ",
+            { "fraction": { "numerator": "1", "denominator": "4" } },
+            " of his income on food, then ",
+            { "fraction": { "numerator": "1", "denominator": "3" } },
+            " of the remaining money on bills.<br>How much money does he have left?"
+          ],
+          "options": [
+            { "text": "$1200" },
+            { "text": "$1400" },
+            { "text": "$1600" },
+            { "text": "$1800" }
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "heading": "Fraction - Decimals - Percentage",
+      "questions": [
+        {
+          "questionNo": 6,
+          "question": "The water level of a lake was recorded at 9 a.m. over six days:<br>Day 1: 1.42 m, Day 2: 1.55 m, Day 3: 1.63 m<br>Day 4: 1.58 m, Day 5: 1.49 m, Day 6: 1.60 m<br>On which day did the water level rise above 1.6 metres?",
+          "options": [
+            { "text": "Day 2" },
+            { "text": "Day 3" },
+            { "text": "Day 6" },
+            { "text": "Day 4" }
+          ],
+          "answer": 1
+        },
+        {
+          "questionNo": 7,
+          "question": "Divide:<br>5.76 ÷ 0.8 = ______",
+          "input": [""],
+          "answer": ["7.2"]
+        },
+        {
+          "questionNo": 8,
+          "displayType": "table",
+          "question": "Complete the equivalency table below. (Give fractions in simplest form)",
+          "tableStructure": [
+            ["Fraction", "Decimal", "Percentage"],
+            [
+              { "fraction": { "numerator": "3", "denominator": "5" } },
+              "INPUT",
+              "PERCENT_INPUT"
+            ],
+            ["FRACTION_INPUT", "0.4", "PERCENT_INPUT"],
+            ["FRACTION_INPUT", "INPUT", "20%"]
+          ],
+          "answer": ["0.6", "60", "2", "5", "40", "1", "5", "0.2"]
+        },
+        {
+          "questionNo": 9,
+          "question": [
+            "Convert",
+            { "fraction": { "numerator": "3", "denominator": "11" } },
+            " into a decimal and choose its type."
+          ],
+          "options": [
+            { "text": "Terminating" },
+            { "text": "Non-terminating nonrecurring" },
+            { "text": "Non-terminating recurring" },
+            { "text": "Non-terminating" }
+          ],
+          "answer": 2
+        },
+        {
+          "questionNo": 10,
+          "question": [
+            "A jug contains 5.2 liters of juice.<br>Amelia pours out ",
+            {
+              "fraction": { "whole": "1", "numerator": "3", "denominator": "4" }
+            },
+            " liters into glasses.<br>How much juice is left in the jug?<br>(Give your answer rounded to one decimal place.)"
+          ],
+          "options": [
+            { "text": "3.5 liters" },
+            { "text": "3.4 liters" },
+            { "text": "3.45 liters" },
+            { "text": "3.6 liters" }
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "heading": "Percentage",
+      "questions": [
+        {
+          "questionNo": 11,
+          "question": [
+            "Express 90 cents as a percentage of $4.<br>",
+            "<b><i>Hint: $1 = 100 cents</i></b><br>$4 = ______ × 100 cents = ______ cents<br>Now find 90 cents as a percentage of ______ cents<br>= ",
+            { "fraction": { "numerator": "______", "denominator": "______" } },
+            " × 100%<br>= ______ %"
+          ],
+          "input": ["", "", "", "", "", ""],
+          "answer": ["4", "400", "400", "90", "400", "22.5"]
+        },
+        {
+          "questionNo": 12,
+          "type": "drop-down",
+          "question": ["What is the percent of change from 5 to 6.5?<br>Change in amount = ______ − ______ = ______<br>Original amount = ______<br>Percent of change =", { "fraction": { "numerator": "______", "denominator": "______" } }, "× 100% = ______ %<br>Since the amount is <drop>______</drop>,<br>the change is a ______ % <drop>______</drop>."],
+          "dropdowns": {
+            "7": ["increased", "decreased"],
+            "9": ["increase", "decrease"]
+          },
+          "input": ["", "", "", "", "", "", "", "", ""],
+          "answer": [
+            "6.5",
+            "5",
+            "1.5",
+            "5",
+            "1.5",
+            "5",
+            "30",
+            "increased",
+            "30",
+            "increase"
+          ]
+        },
+        {
+          "questionNo": 13,
+          "question": "Emma bought a jacket for $200, but she originally expected it to cost 25% less.<br>What price did she expect?",
+          "options": [
+            { "text": "$120" },
+            { "text": "$140" },
+            { "text": "$150" },
+            { "text": "$160" }
+          ],
+          "answer": 2
+        },
+        {
+          "questionNo": 14,
+          "question": [
+            "Replace 62% with the nearest common fraction:<br>62% of 31 → ",
+            { "fraction": { "numerator": "______", "denominator": "______" } },
+            " × 31<br>Replace 31 with a number that is compatible with ______:<br>",
+            { "fraction": { "numerator": "______", "denominator": "______" } },
+            " × ______<br>Estimated value: 62% of 31 ≈ ______<br>Exact value: 62% of 31 = ______"
+          ],
+          "input": ["", "", "", "", "", "", "", ""],
+          "answer": ["3", "5", "5", "3", "5", "30", "18", "19.22"]
+        },
+        {
+          "questionNo": 15,
+          "question": "Liam expected his trip to take 1 hour 40 minutes, but it actually took 2 hours.<br>What is the percent error?<br>Round to the nearest tenth.",
+          "options": [
+            { "text": "16.7%" },
+            { "text": "16.0%" },
+            { "text": "13.3%" },
+            { "text": "18.5%" }
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "heading": "Squares and Cubes",
+      "questions": [
+        {
+          "questionNo": 16,
+          "question": "Find the count of natural numbers between 18² and 19².<br>Here, n = ______<br>So, the number of natural numbers =<br>2 × ______ = ______",
+          "input": ["", "", ""],
+          "answer": ["18", "18", "36"]
+        },
+        {
+          "questionNo": 17,
+          "question": "Find the sum without adding:<br>(1 + 3 + 5 + 7 + 9 + 11 + 13 + 15) = ______² = ______",
+          "input": ["", ""],
+          "answer": ["8", "64"]
+        },
+        {
+          "questionNo": 18,
+          "question": "Express the given cube as a sum:<br>125 = ______³ = ( ______ + ______ + ______ + ______ + ______ )",
+          "input": ["", "", "", "", "", ""],
+          "answer": ["5", "21", "23", "25", "27", "29"]
+        },
+        {
+          "questionNo": 19,
+          "question": "Find the least perfect square number which is exactly divisible by 8, 12, 15.",
+          "options": [
+            { "text": "3600" },
+            { "text": "1800" },
+            { "text": "900" },
+            { "text": "7200" }
+          ],
+          "answer": 0
+        },
+        {
+          "questionNo": 20,
+          "question": "Find the least cube number which is exactly divisible by 4, 5, 9.",
+          "options": [
+            { "text": "3600" },
+            { "text": "7200" },
+            { "text": "18000" },
+            { "text": "27000" }
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "heading": "Square Roots and Cube Roots",
+      "questions": [
+        {
+          "questionNo": 21,
+          "question": [
+            "A student tries to find ",
+            { "root": { "index": 2, "value": "49" } },
+            ". His work is given below:<br>What mistake did the student make?"
+          ],
+          "options": [
+            {
+              "text": "The student subtracted even numbers instead prime numbers"
+            },
+            {
+              "text": "The student subtracted even numbers instead of odd numbers"
+            },
+            { "text": "The method is not applicable for 49" }
+          ],
+          "answer": 1,
+          "image": " ./assests/images/question/2.png"
+        },
+        {
+          "questionNo": 22,
+          "question": [
+            "Find ",
+            { "root": { "index": 3, "value": "1728" } },
+            "<br>Step 1: Prime factorization<br>1728 = ______ × ______ × ______ × ______ × ______ × ______ × ______ × ______ × ______<br>Step 2: Group into triples<br>(______ × ______ × ______) × (______ × ______ × ______) × (______ × ______ × ______)<br>Step 3: Take one from each group and multiply:<br>______ × ______ × ______ = ______<br>So, ",
+            { "root": { "index": 3, "value": "1728" } },
+            " = ______"
+          ],
+          "stepValidation": [
+            {
+              "start": 0,
+              "end": 9,
+              "type": "count",
+              "rule": { "2": 6, "3": 3 }
+            },
+            {
+              "start": 9,
+              "end": 18,
+              "type": "triples",
+              "rule": [
+                [2, 2, 2],
+                [2, 2, 2],
+                [3, 3, 3]
+              ]
+            },
+            { "start": 18, "end": 21, "type": "anyOrder", "rule": [2, 2, 3] }
+          ],
+          "input": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "answer": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "3",
+            "3",
+            "3",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "3",
+            "3",
+            "3",
+            "2",
+            "2",
+            "3",
+            "12",
+            "12"
+          ]
+        },
+        {
+          "questionNo": 23,
+          "question": [
+            "Complete the following and hence find ",
+            { "root": { "index": 2, "value": "784" } },
+            ".<br>"
+          ],
+          "longDivisionSq": [
+            {
+              "left": "_____",
+              "leftBracket": true,
+              "inside": "<div style='display:grid; grid-template-columns:20px 55px 20px 55px; align-items:center;'><div></div><div style='text-align:center;'>7</div><div></div><div style='text-align:center;'>84</div></div>",
+              "topBar": true,
+              "rightBracket": true,
+              "right": "_____&nbsp;_____"
+            },
+            {
+              "inside": "<div style='display:grid; grid-template-columns:20px 55px 20px 55px; align-items:center;'><div style='text-align:right; font-weight:bold; padding-right:5px;'>−</div><div style='text-align:center;'>_____</div></div>",
+              "bottomLine": true
+            },
+            {
+              "left": "_____ _____",
+              "leftBracket": true,
+              "inside": "<div style='display:grid; grid-template-columns:20px 55px 20px 55px; align-items:center;'><div></div><div style='text-align:center;'>_____</div><div></div><div style='text-align:center;'>_____</div></div>",
+              "rightBracket": true
+            },
+            {
+              "inside": "<div style='display:grid; grid-template-columns:20px 55px 20px 55px; align-items:center;'><div></div><div style='text-align:center;'>_____</div><div></div><div style='text-align:center;'>_____</div></div>",
+              "bottomLine": true
+            },
+            {
+              "inside": "<div style='display:grid; grid-template-columns:20px 55px 20px 55px; align-items:center;'><div></div><div></div><div></div><div style='text-align:center;'>_____</div></div>"
+            }
+          ],
+          "questionAfter": [
+            { "root": { "index": 2, "value": "784" } },
+            " = ______"
+          ],
+          "input": ["", "", "", "", "", "", "", "", "", "", "", ""],
+          "answer": [
+            "2",
+            "2",
+            "8",
+            "4",
+            "4",
+            "8",
+            "3",
+            "84",
+            "3",
+            "84",
+            "0",
+            "28"
+          ]
+        },
+        {
+          "questionNo": 24,
+          "question": [
+            "Complete the following to help find which two integers ",
+            { "root": { "index": 3, "value": "150" } },
+            " is between.<br>The perfect cube just below 150 is ______.<br>The perfect cube just above 150 is ______.<br>Since ______ &lt; 150 &lt; ______.<br>Therefore ",
+            { "root": { "index": 3, "value": "______" } },
+            " &lt; ",
+            { "root": { "index": 3, "value": "150" } },
+            " &lt; ",
+            { "root": { "index": 3, "value": "______" } },
+            ".<br>So, ______ &lt; ",
+            { "root": { "index": 3, "value": "150" } },
+            " &lt; ______.<br>Thus ",
+            { "root": { "index": 3, "value": "150" } },
+            " is between ______ and ______."
+          ],
+          "unorderedIndices": [8, 9],
+          "input": ["", "", "", "", "", "", "", "", "", ""],
+          "answer": [
+            "125",
+            "216",
+            "125",
+            "216",
+            "125",
+            "216",
+            "5",
+            "6",
+            "5",
+            "6"
+          ]
+        },
+        {
+          "questionNo": 25,
+          "question": [
+            "Which number is ",
+            { "root": { "index": 2, "value": "180" } },
+            " closest to?<br>The perfect square just below 180 is ______.<br>The perfect square just above 180 is ______.<br>Since ______ &lt; 180 &lt; ______,<br>therefore ",
+            { "root": { "index": 2, "value": "______" } },
+            " &lt; ",
+            { "root": { "index": 2, "value": "180" } },
+            " &lt; ",
+            { "root": { "index": 2, "value": "______" } },
+            ".<br>Thus ______ &lt; ",
+            { "root": { "index": 2, "value": "180" } },
+            " &lt; ______.<br>180 is closer to ______ than to ______.<br>So, ",
+            { "root": { "index": 2, "value": "180" } },
+            " is closer to ______."
+          ],
+          "input": ["", "", "", "", "", "", "", "", "", "", ""],
+          "answer": [
+            "169",
+            "196",
+            "169",
+            "196",
+            "169",
+            "196",
+            "13",
+            "14",
+            "169",
+            "196",
+            "13"
+          ]
+        }
+      ]
+    
+    }
+  ]
+}
